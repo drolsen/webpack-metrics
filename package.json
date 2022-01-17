@@ -9,7 +9,7 @@
     "webpack metrics visualize"
   ],
   "version": "0.0.1",
-  "description": "",
+  "description": "A plugin to gather metrics on built files for project data visualization",
   "repository": "drolsen/webpack-metrics",
   "bugs": {
     "url": "https://github.com/drolsen/webpack-metrics/issues"

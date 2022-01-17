@@ -1,6 +1,6 @@
 <div align="center">
   <img src="/assets/logo.jpg" width="700" />
-  <p style="margin-top: 25px;"></p>
+  <p style="margin-top: 25px;">A plugin to gather metrics on built files for project data visualization</p>
 
 [![Build Status](https://app.travis-ci.com/drolsen/webpack-metrics.svg?branch=master)](https://app.travis-ci.com/drolsen/webpack-metrics)
 [![Minimum node.js version](https://badgen.net/npm/node/webpack-metrics)](https://npmjs.com/package/webpack-metrics)
