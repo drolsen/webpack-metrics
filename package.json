@@ -1,0 +1,58 @@
+{
+  "name": "webpack-metricss",
+  "keywords": [
+    "webpack",
+    "metrics",
+    "data",
+    "visualize",
+    "webpack metrics",
+    "webpack metrics visualize"
+  ],
+  "version": "0.0.1",
+  "description": "",
+  "repository": "drolsen/webpack-metrics",
+  "bugs": {
+    "url": "https://github.com/drolsen/webpack-metrics/issues"
+  },
+  "author": "Devin R. Olsen <devin@devinrolsen.com> (http://devinrolsen.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run basic-test && npm run ava-test",
+    "basic-test": "webpack --config ./test/basic/basic.test.config.js --mode production",
+    "ava-test": "ava ./test/ava.test.js"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/plugin-proposal-async-generator-functions": "7.16.0",
+    "@babel/plugin-proposal-class-properties": "7.16.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.16.0",
+    "@babel/plugin-proposal-optional-chaining": "7.16.0",
+    "@babel/plugin-transform-for-of": "7.16.0",
+    "@babel/plugin-transform-react-display-name": "7.16.0",
+    "@babel/plugin-transform-react-jsx": "7.16.0",
+    "@babel/plugin-transform-reserved-words": "7.16.0",
+    "@babel/preset-env": "7.16.0",
+    "@babel/preset-react": "7.16.0",
+    "@babel/register": "7.16.0",
+    "babel-plugin-file-loader": "2.0.0",
+    "babel-plugin-import-globals": "2.0.0",
+    "babel-plugin-module-resolver": "4.1.0",
+    "babel-plugin-transform-require-context": "0.1.1",
+    "merge-deep": "3.0.3",
+    "node-html-parser": "5.2.0",
+    "pretty": "2.0.0",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "ava": "4.0.1",
+    "webpack": "5.65.0",
+    "webpack-cli": "4.9.1",
+    "clean-webpack-plugin": "4.0.0"
+  }
+}
